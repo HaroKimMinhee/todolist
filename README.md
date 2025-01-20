@@ -6,7 +6,11 @@
 
 리액트 설치 과정
 프로젝트 생성 : npx create-react-app todolist
+<br>
 버전 변경 : package에서 19 -> 18로 변경
+<br>
+추가 설치 : npm install web-vitals
+
 
 부트스트랩 설치 : npm install bootstrap(간편하게 꾸밀 때 쓰이려고 할 때)
 
