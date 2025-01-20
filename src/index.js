@@ -15,6 +15,7 @@ import Home from './components/Home.jsx';
 import Todo from './components/Todo.jsx';
 import SignUp from './components/Signup.jsx';
 import Login from './components/Login.jsx';
+import Update from './components/Update';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -27,6 +28,7 @@ root.render(
           <Route path='/todo' element={<Todo/>}/>
           <Route path='/signup' element={<SignUp/>}/>
           <Route path='/login' element={<Login/>}/>
+          <Route path='/update/:id' element={<Update />} />
         </Routes>
       </div>
       <ToastContainer
